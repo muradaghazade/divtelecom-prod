@@ -5,4 +5,5 @@ app_name = 'core'
 
 urlpatterns = [
     path('', home, name='index'),
+    path('about/', about, name='about'),
 ]
